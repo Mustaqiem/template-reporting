@@ -7,7 +7,7 @@ Build in PHP with Slim Framework.
 
 <b> 1.1 </b> Authentication
 
-Complete API click [here](http://localhost/auth)
+Complete API click [here](https://documenter.getpostman.com/view/2617430/slim-chat/6tXcmRT)
 
 ```sh
 BASE_URL : "http://localhost/Docs/Authentication.md"
