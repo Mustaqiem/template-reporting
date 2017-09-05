@@ -7,7 +7,7 @@ Build in PHP with Slim Framework.
 
 <b> 1.1 </b> Authentication
 
-Complete API click [here](http://localhost/Docs/Authentication.md)
+Complete API click [here](http://localhost/auth)
 
 ```sh
 BASE_URL : "http://localhost/Docs/Authentication.md"
