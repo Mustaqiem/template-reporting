@@ -1,5 +1,5 @@
 
-<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:999999;">
     <div class="modal-dialog modal-lg" >
         <div class="modal-content">
             <!-- <div class="modal-header">

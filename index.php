@@ -25,8 +25,8 @@
 		  </a>
 		  <span class="dropdown-toggle fa fa-user-o logo-avatar" data-toggle="dropdown"></span>
 		  <ul class="dropdown-menu">
-		    <li><a href="#">Profile</a></li>
-		    <li><a href="#">Pengaturan</a></li>
+		    <li><a href="?p=profile">Profile</a></li>
+		    <li><a href="?p=profile">Pengaturan</a></li>
 		    <li><a href="#">Log Out</a></li>
 		  </ul>
 
@@ -35,14 +35,15 @@
 			<span class="dropdown-toggle fa fa-bars logo-avatar" data-toggle="dropdown"></span>
 			<ul class="dropdown-menu" >
 			  <li><a href="home.html" class="menu-control"><span class="fa fa-home"></span>&nbsp; Home</a></li>
-			  <li><a href="home.html" class="menu-control"><span class="fa fa-user-o"></span>&nbsp; Profil</a></li>
-			  <li><a href="home.html" class="menu-control"><span class="fa fa-child"></span>&nbsp; Group</a></li>
-			  <li><a href="home.html" class="menu-control"><span class="fa fa-child"></span>&nbsp; Anak</a></li>
-			  <li><a href="home.html" class="menu-control"><span class="fa fa-file-archive-o"></span>&nbsp; Arsip</a></li>
-			  <li><a href="home.html" class="menu-control"><span class="fa fa-gears"></span>&nbsp; Pengaturan</a></li>
+			  <li><a href="?p=group" class="menu-control"><span class="fa fa-child"></span>&nbsp; Group</a></li>
+			  <li><a href="?p=anak" class="menu-control"><span class="fa fa-child"></span>&nbsp; Anak</a></li>
+			  <li><a href="?p=arcive" class="menu-control"><span class="fa fa-file-archive-o"></span>&nbsp; Arsip</a></li>
+      		  <li class="divider"></li>
+			  <li><a href="?p=profile" class="menu-control"><span class="fa fa-user"></span>&nbsp; profil</a></li>
+			  <li><a href="?p=profile" class="menu-control"><span class="fa fa-gears"></span>&nbsp; Pengaturan</a></li>
 			  <li><a href="home.html" class="menu-control"><span class="fa fa-sign-out"></span>&nbsp; Sign out</a></li>
 			  <li></li>
-		  </ul>
+		  	</ul>
 		</div>
 
 	</div>
@@ -52,22 +53,22 @@
 <div class="menu-top">
 	<ul class="menu-group">
 		<p class="fa fa-home bb">
-			<a href="home.html" class="menu-control"><br>Home</a>
+			<a href="/" class="menu-control"><br>Home</a>
 		</p>
 		<p class="fa fa-user-o bb">
-			<a href="home.html" class="menu-control"><br>Profil</a>
+			<a href="?p=profile" class="menu-control"><br>Profil</a>
 		</p>
 		<p class="fa fa-users bb">
-			<a href="home.html" class="menu-control"><br>Group</a>
+			<a href="?p=group" class="menu-control"><br>Group</a>
 		</p>
 		<p class="fa fa-child bb">
-			<a href="home.html" class="menu-control"><br>Anak</a>
+			<a href="?p=anak" class="menu-control"><br>Anak</a>
 		</p>
 		<p class="fa fa-file-archive-o bb">
-			<a href="home.html" class="menu-control"><br>Arsip</a>
+			<a href="?p=arcive" class="menu-control"><br>Arsip</a>
 		</p>
 		<p class="fa fa-gears bb">
-			<a href="home.html" class="menu-control"><br>Pengaturan</a>
+			<a href="?p=profile" class="menu-control"><br>Pengaturan</a>
 		</p>
 
 		<div class="clean"></div>
@@ -75,25 +76,18 @@
 	</ul>
 </div>
 <div class="container">
-	<!-- <div class="header">
-		<h1>App reporting</h1>
-	</div> -->
-
 	<div class="main">
 
-		<div class="middle">
-			<!-- Lopping in here. in to class middle -->
-				<?php
-				$p = isset($_GET['p'])?$_GET['p']:'';
-				if ($p) {
-					include $p.'.php';
-				}else {
-					include 'beranda.php';
-				}
-				?>
-			<!-- =============== -->
-
-		</div>
+	<!-- Lopping in here. in to class middle -->
+		<?php
+		$p = isset($_GET['p'])?$_GET['p']:'';
+		if ($p) {
+			include $p.'.php';
+		}else {
+			include 'beranda.php';
+		}
+		?>
+	<!-- =============== -->
 
 	</div>
 
@@ -102,5 +96,8 @@
 	</div>
 
 </div>
+
+
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+<div class="middle">
 <div>
     <img src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" class="img-circle-img">&nbsp;
     <div class="users-data">
@@ -13,19 +15,19 @@
 <div style="text-align:center">
 
     <a class="img-thumbnail img-detail" href="#" data-image-id="2" data-toggle="modal" data-title="Im so nice" data-caption="" data-image="https://thumb1.shutterstock.com/display_pic_with_logo/4479517/465606830/stock-photo-oil-painting-street-view-of-london-artwork-black-white-and-red-big-ben-465606830.jpg" data-target="#image-gallery">
-        <img class="img-thumbnail " style="width:100%"  src="https://thumb1.shutterstock.com/display_pic_with_logo/4479517/465606830/stock-photo-oil-painting-street-view-of-london-artwork-black-white-and-red-big-ben-465606830.jpg" alt="Cinque Terre">
+        <img class="img-thumbnail igg" src="https://thumb1.shutterstock.com/display_pic_with_logo/4479517/465606830/stock-photo-oil-painting-street-view-of-london-artwork-black-white-and-red-big-ben-465606830.jpg" alt="Cinque Terre">
     </a>
     <a class="img-thumbnail img-detail" href="#" data-image-id="2" data-toggle="modal" data-title="Im so nice" data-caption="" data-image="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/502432927/stock-photo-original-oil-painting-on-canvas-beautiful-multicolored-peacock-modern-art-502432927.jpg" data-target="#image-gallery">
-        <img class="img-thumbnail " style="width:100%"  src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/502432927/stock-photo-original-oil-painting-on-canvas-beautiful-multicolored-peacock-modern-art-502432927.jpg" alt="Cinque Terre">
+        <img class="img-thumbnail igg" src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/502432927/stock-photo-original-oil-painting-on-canvas-beautiful-multicolored-peacock-modern-art-502432927.jpg" alt="Cinque Terre">
     </a>
     <a class="img-thumbnail img-detail" href="#" data-image-id="2" data-toggle="modal" data-title="Im so nice" data-caption="" data-image="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/294267311/stock-photo-original-oil-painting-on-canvas-sail-boat-modern-impressionism-by-nikolov-294267311.jpg" data-target="#image-gallery">
-        <img class="img-thumbnail " style="width:100%"  src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/294267311/stock-photo-original-oil-painting-on-canvas-sail-boat-modern-impressionism-by-nikolov-294267311.jpg" alt="Cinque Terre">
+        <img class="img-thumbnail igg" src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/294267311/stock-photo-original-oil-painting-on-canvas-sail-boat-modern-impressionism-by-nikolov-294267311.jpg" alt="Cinque Terre">
     </a>
     <a class="img-thumbnail img-detail" href="#" data-image-id="2" data-toggle="modal" data-title="Im so nice" data-caption="" data-image="https://cdn.pixabay.com/photo/2013/07/12/14/28/easel-148266_960_720.png" data-target="#image-gallery">
-        <img class="img-thumbnail " style="width:100%"  src="https://cdn.pixabay.com/photo/2013/07/12/14/28/easel-148266_960_720.png" alt="Cinque Terre">
+        <img class="img-thumbnail igg" src="https://cdn.pixabay.com/photo/2013/07/12/14/28/easel-148266_960_720.png" alt="Cinque Terre">
     </a>
     <a class="img-thumbnail img-detail" href="#" data-image-id="2" data-toggle="modal" data-title="Im so nice" data-caption="" data-image="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" data-target="#image-gallery">
-        <img class="img-thumbnail " style="width:100%"  src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" alt="Cinque Terre">
+        <img class="img-thumbnail igg" src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" alt="Cinque Terre">
     </a>
 
 </div>
@@ -63,3 +65,4 @@
 <form class="" action="index.html" method="post">
     <input type="text" class="form-control" name="comment" value="" placeholder="Comment text ...">
 </form>
+</div>

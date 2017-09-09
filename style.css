@@ -28,6 +28,13 @@ a:hover{
 	cursor: pointer
 }
 
+.cennter{
+	text-align: center;
+}
+.color-white{
+	color: #fff;
+}
+
 .header-fix{
 	width: 100%;
 	background: #fff;
@@ -35,6 +42,7 @@ a:hover{
 	position: fixed;
 	margin-top: 0px;
 	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	z-index: 99999;
 }
 
 .header-fix img{
@@ -94,7 +102,7 @@ a:hover{
 }
 
 body{
-	background: #dedede;
+	background: #d9e4e4;
 	font-family: 'Helvetica', arial, sans-serif;
 	font-size: 15px;
 }
@@ -179,13 +187,28 @@ a:hover{
 		border-radius: 5px;
 		color:#fff
 	}
+	.red-small{
+		padding:4px;
+		background:red;
+		border-radius: 5px;
+		color:#fff
+	}
+	.blue-small{
+		padding:4px;
+		background:blue;
+		border-radius: 5px;
+		color:#fff
+	}
 
 	.middle a{
 		font-weight: bold;
 	}
 
+.col-md-6{
+	width: 410px;
+}
+
 	.right{
-		width: 250px;
 		border: 1px solid #dedede;
 		padding: 10px;
 		margin: 10px;
@@ -267,13 +290,20 @@ background:-webkit-linear-gradient(#d7ffde, #ffffff);
 }
 
 
-
-
-
+/*group*/
+.group-item{
+	float:left;
+	margin: 10px ;
+	text-align: center;
+}
+.modal-group{
+	z-index:99999;margin-top:10%
+}
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
 /* untuk ukuran 1080px kebawah */
+/*tablet*/
 @media screen and (max-width: 1080px) {
 
 	.container {
@@ -284,7 +314,7 @@ MEDIA QUERIES
 		background: #fff000;
 	}
 	.middle {
-		width: 100%;
+		width: 98%;
 		float: right;
 	}
 
@@ -334,11 +364,17 @@ MEDIA QUERIES
 		margin: 5px;
 		height: auto;
 	}
+	.modal-group{
+		z-index:99999;margin-top:60%
+	}
+
+
 
 }
 
 
 /* untuk ukuran layar 700px kebawah */
+/*phone*/
 @media screen and (max-width: 780px) {
 
 	.header,
@@ -392,12 +428,29 @@ MEDIA QUERIES
 		margin-left: 88%
 	}
 
-
+/*
 	.middle .img-detail{
 		width: 100%;
 		margin: 2px;
 		height: auto;
+	}*/
+	.middle .img-detail {
+		width: 46%;
+		margin: 2px;
+		height: auto;
 	}
 
+	.group-report{
+		width: 100%;
+	}
 
+	.group-item{
+		float:left;
+		margin: 7.5px auto;
+		text-align: center;
+
+	}
+	.modal-group{
+		z-index:99999;margin-top:60%
+	}
 }

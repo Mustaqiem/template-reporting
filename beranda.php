@@ -1,3 +1,5 @@
+
+<div class="middle">
 <div>
     <img src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" class="img-circle-img">&nbsp;
     <div class="users-data">
@@ -9,7 +11,7 @@
     <br><br><hr>
 </div>
 
-<img src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="236">
+<img src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" class="img-thumbnail" alt="Cinque Terre" style="width:100%;max-height:400px;margin:0 auto;">
 <hr>
 <b>Membuat artikel munculnya negara api asasas ...</b>
 <p class="article">
@@ -20,3 +22,4 @@
     <a href="?p=comment"><span class="fa fa-comment-o"></span></a>
 </div>
 <div><hr></div>
+</div>
