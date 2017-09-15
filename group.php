@@ -1,23 +1,40 @@
+<div class="dropdown-g" >
+  <span class="dropdown-toggle logo-avatar" data-toggle="modal" data-target="#myModalG"><button type="button" class="btn btn-default">Lainnya</button></span>
+</div>
 
-<div class="middle">
+<div id="myModalG" class="modal fade modal-group" role="dialog" style="">
+  <div class="modal-dialog modal-sm">
 
-<ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#group">Group</a></li>
-</ul>
-<br>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="cennter">
+              <a href="#" class="btn btn-success" style="margin:6px">Jadikan PIC</a>
+              <a href="#" class="btn btn-success" style="margin:6px">Jadikan Anggota</a>
+              <a href="#" class="btn btn-success" style="margin:6px">Jadikan Wali</a>
+              <a href="#" class="btn btn-danger" style="margin:6px">Keluarkan dari group</a>
+          </div>
 
-<div class="tab-content">
-    <div id="group" class="tab-pane fade in active">
-        <table class="table">
-            <tbody>
-                <!-- Looping data -->
-                    <div class="group-item">
-                        <a href="?p=detailGroup">
-                        <img  width="80" src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/502432927/stock-photo-original-oil-painting-on-canvas-beautiful-multicolored-peacock-modern-art-502432927.jpg" alt="Not image">
-                        <br><b> Sumirah </b>
-                    </div>
-                <!-- end looping data -->
-            </tbody>
-        </table>
+          </div>
+      </div>
     </div>
+  </div>
+
+
+<div class="middle middleG">
+
+
+<div class="list-grop">
+    <!-- lopping -->
+   <a href="?p=detailGroup" class="list-group">
+    <img style="width:100px" src="https://cdn.pixabay.com/photo/2013/09/23/20/02/statue-185435_960_720.jpg" class="img-circle-img">&nbsp;
+
+     <h4 class="list-group-item-heading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nama grop</h4>
+     <p class="list-group-item-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deskrip group</p>
+
+    </a>
+    <br><br><hr>
+    <!-- end lopping -->
+</div>
+
 </div>

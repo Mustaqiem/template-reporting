@@ -1,7 +1,7 @@
 
 <div class="middle">
 
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs" style="width:100%">
     <li class="active"><a data-toggle="tab" href="#member">Anggota</a></li>
     <li><a data-toggle="tab" href="#task">Tugas</a></li>
     <li ><a data-toggle="tab" href="#report">Laporan</a></li>
@@ -62,22 +62,13 @@
             <td>Pitt</td>
             <td>35</td>
             <td style="text-align:center">
-                <a href="#"><span class="btn btn-danger btn-sm">Hapus</span></a>
-                <a href="#"><span class="btn btn-success btn-sm">Detail</span></a>
+                <a href="#"><span class=" btn-link">Hapus</span></a><br>
+                <a href="#"><span class=" btn-link">Detail</span></a>
             </td>
           </tr>
           <!-- end looping data -->
         </tbody>
         </table>
-        <!-- <nav aria-label="Page navigation example ">
-         <ul class="pagination">
-           <li><a href="#"  style="color:#334632">Previous</a></li>
-           <li><a href="#"  style="color:#334632">1</a></li>
-           <li><a href="#"  style="color:#334632">2</a></li>
-           <li><a href="#"  style="color:#334632">3</a></li>
-           <li><a href="#"  style="color:#334632">Next</a></li>
-         </ul>
-        </nav> -->
 
     </div>
 

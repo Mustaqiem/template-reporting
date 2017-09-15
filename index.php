@@ -18,11 +18,22 @@
 	<div class="logo">
 		<img src="logo-black.png" alt="">
 
-		<div class="dropdown">
 
-  		  <a href="#">
-			  <span class="dropdown-toggle fa fa-envelope-o logo-avatar" data-toggle="dropdown"></span>&nbsp;&nbsp;&nbsp;&nbsp;
-		  </a>
+
+		<div class="dropdown" style="margin-left:80%" >
+
+		<span class="dropdown-toggle fa fa-envelope-o logo-avatar" data-toggle="dropdown"><span style="margin-left:-40px;margin-top:-25px" class="badge">12</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+		   <ul class="dropdown-menu" style="margin-left:-20%">
+			 <li>
+				 <a href="#"> <img style="width:20%" src="https://thumb7.shutterstock.com/display_pic_with_logo/3067298/502432927/stock-photo-original-oil-painting-on-canvas-beautiful-multicolored-peacock-modern-art-502432927.jpg" alt="">
+					&nbsp;&nbsp;
+				<b> Ikriama </b>
+			 	</a>
+			 </li>
+		   </ul>
+	    </div>
+
+		<div class="dropdown" style="margin-left:83%;margin-top:-27px">
 		  <span class="dropdown-toggle fa fa-user-o logo-avatar" data-toggle="dropdown"></span>
 		  <ul class="dropdown-menu">
 		    <li><a href="?p=profile">Profile</a></li>
